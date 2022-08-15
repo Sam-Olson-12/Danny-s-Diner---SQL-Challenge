@@ -1,4 +1,4 @@
-#Case Study #1 - Danny's Diner
+# Case Study #1 - Danny's Diner
 **Question #3**
 What was the first item from the menu purchased by each customer?
 
