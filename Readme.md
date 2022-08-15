@@ -1,7 +1,8 @@
 # Danny's Diner
 Case study #1 8 Week SQL Challenge
 
-**Question #1**
+**Question #1** 
+What is the total amount each customer spent at the restaurant?
 
     SELECT customer_id, SUM(price) as sum_price
     FROM dannys_diner.sales 
