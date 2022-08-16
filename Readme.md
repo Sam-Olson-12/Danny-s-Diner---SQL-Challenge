@@ -8,6 +8,7 @@ This is a personal project that I am doing to improve my SQL skills
 ### Danny's Diner
 
 **Question #1** 
+
 What is the total amount each customer spent at the restaurant?
 
     SELECT customer_id, SUM(price) as sum_price
@@ -24,6 +25,7 @@ What is the total amount each customer spent at the restaurant?
 
 ---
 **Question #2**
+
 How many days has each customer visited the restaurant?
 
     SELECT customer_id, COUNT (DISTINCT order_date)
@@ -39,6 +41,7 @@ How many days has each customer visited the restaurant?
 ---
 
 **Question #3**
+
 What was the first item from the menu purchased by each customer?
 
     SELECT DISTINCT ON (customer_id) customer_id, order_date, product_name
