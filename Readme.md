@@ -23,6 +23,20 @@ What is the total amount each customer spent at the restaurant?
 | A           | 76        |
 
 ---
+**Question #2**
+How many days has each customer visited the restaurant?
+
+    SELECT customer_id, COUNT (DISTINCT order_date)
+    FROM dannys_diner.sales
+    GROUP BY sales.customer_id;
+
+| customer_id | count |
+| ----------- | ----- |
+| A           | 4     |
+| B           | 6     |
+| C           | 2     |
+
+---
 
 **Question #3**
 What was the first item from the menu purchased by each customer?
@@ -40,3 +54,4 @@ What was the first item from the menu purchased by each customer?
 | C           | 2021-01-01T00:00:00.000Z | ramen        |
 
 ---
+
